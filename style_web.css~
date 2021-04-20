@@ -1,0 +1,98 @@
+body{
+	background-color:#aaaaaa;
+}
+
+div.header{
+	position:absolute;
+	width:550px;
+	text-align:center;
+	background-color:#ffffff;
+	border:3px solid #111111;
+	padding:25px;
+	margin-left:-300px;
+	left:50%;
+	margin-top:30px;
+}
+
+div.header div.title{
+	font-family:courier;
+	font-size:34pt;
+	text-transform:uppercase;
+}
+
+div.header div.subtitle{
+	font-family:arial;
+	font-size:16pt;
+	text-transform:uppercase;
+	margin-top:10px;
+}
+
+div.table{
+	width:975px;
+	height:100%;
+	background-color:#ffffff;
+	margin:auto;
+	display:table;
+}
+
+div.row{
+	height:100%;
+	display:table-row;
+}
+
+div.cell{
+	height:100%;
+	display:table-cell;
+}
+
+div.left{
+	padding-top:270px;
+	padding-left:20px;
+	padding-right:20px;
+	width:280px;
+	min-height:100%;
+	overflow-y:visible;
+	background-color:#eeeeee;
+	padding-bottom:20px;
+}
+
+div.left div.title{
+	font-family:arial;
+	font-size:16pt;
+	margin-top:30px;
+	margin-bottom:5px;
+}
+
+div.left div.detail span{
+	font-family:calibri;
+	line-height:1.5em;
+}
+
+div.left div.detail div.block{
+	margin-bottom:15px;
+}
+
+div.right{
+	padding:20px;
+}
+
+div.right div.block div.title{
+	font-family:arial;
+	font-size:16pt;
+	margin-top:30px;
+	margin-bottom:5px;
+	border-bottom:1px solid #000000;
+}
+
+div.right div.block p{
+	text-indent:40px;
+}
+
+div.right div.block div.block div.title{
+	font-family:arial;
+	font-size:14pt;
+	margin-top:30px;
+	margin-bottom:5px;
+	border-bottom:0px solid #000000;
+}
+
