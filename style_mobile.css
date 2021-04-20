@@ -9,15 +9,13 @@ body{
 }
 
 header{
-	position:absolute;
-	width:550px;
 	text-align:center;
 	background-color:#ffffff;
 	border:3px solid #111111;
 	padding:25px;
-	margin-left:-300px;
-	left:50%;
 	margin-top:30px;
+	width:100%;
+	display:block;
 }
 
 header h1{
@@ -34,32 +32,20 @@ header h2{
 }
 
 div.table{
-	width:975px;
-	height:100%;
 	background-color:#ffffff;
-	margin:auto;
-	display:table;
 }
 
 div.row{
-	height:100%;
-	display:table-row;
 }
 
 .cell{
-	height:100%;
-	display:table-cell;
 }
 
 aside.left{
-	padding-top:270px;
-	padding-left:20px;
-	padding-right:20px;
-	width:280px;
-	min-height:100%;
-	overflow-y:visible;
+	margin-top:10px;
+	padding:20px;
+	width:100%;
 	background-color:#eeeeee;
-	padding-bottom:20px;
 }
 
 aside.left section h1{
@@ -87,7 +73,8 @@ aside.left div.block{
 
 article.right{
 	padding:20px;
-	padding-top:270px;
+	width:100%;
+	display:block;
 }
 
 article.right .block h1{
