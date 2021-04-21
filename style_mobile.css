@@ -14,19 +14,18 @@ header{
 	border:3px solid #111111;
 	padding:25px;
 	margin-top:30px;
-	width:100%;
 	display:block;
 }
 
 header h1{
 	font-family:courier;
-	font-size:34pt;
+	font-size:28pt;
 	text-transform:uppercase;
 }
 
 header h2{
 	font-family:arial;
-	font-size:16pt;
+	font-size:14pt;
 	text-transform:uppercase;
 	margin-top:10px;
 }
@@ -44,7 +43,6 @@ div.row{
 aside.left{
 	margin-top:10px;
 	padding:20px;
-	width:100%;
 	background-color:#eeeeee;
 }
 
@@ -73,7 +71,6 @@ aside.left div.block{
 
 article.right{
 	padding:20px;
-	width:100%;
 	display:block;
 }
 
