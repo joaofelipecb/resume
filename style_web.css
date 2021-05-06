@@ -115,3 +115,9 @@ article.right .block .block h1{
 	border-bottom:0px solid #000000;
 }
 
+iframe.video{
+	display:table;
+	margin:auto;
+	width:560px;
+	height:315px;
+}

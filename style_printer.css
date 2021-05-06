@@ -115,3 +115,6 @@ article.right .block .block h1{
 	border-bottom:0px solid #000000;
 }
 
+section.video{
+	display:none;
+}
