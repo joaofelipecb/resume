@@ -8,6 +8,10 @@ body{
 	background-color:#aaaaaa;
 }
 
+.backgroundPrint{
+	display:none;
+}
+
 header{
 	position:absolute;
 	width:550px;
@@ -21,8 +25,11 @@ header{
 }
 
 header h1{
-	font-family:courier;
+	font-family:source code pro, courier;
 	font-size:34pt;
+}
+
+header h1 b{
 	text-transform:uppercase;
 }
 
